@@ -1,8 +1,10 @@
-﻿using Microsoft.Extensions.Logging;
+﻿
+
+using Microsoft.Extensions.Logging;
 
 namespace MauiAppQualCombustivel
 {
-    public static class MauiProgram
+    public partial class MauiProgram: ContentPage 
     {
         public static MauiApp CreateMauiApp()
         {
